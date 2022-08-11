@@ -1,1 +1,2 @@
-require('lua/base')
+require('base')
+require('highlights')
