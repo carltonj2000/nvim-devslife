@@ -6,11 +6,11 @@ end
 
 vim.cmd [[packadd packer.nvim]]
 
-return packer.startup(function(use)
+packer.startup(function(use)
   use 'wbthomason/packer.nvim'
   use {
-    "svrana/neosolarized.nvim",
-    require = { "tjdevries/colorbuddy.nvim" }
+    'svrana/neosolarized.nvim',
+    requires = { 'tjdevries/colorbuddy.nvim' }
   }
 end)
 
